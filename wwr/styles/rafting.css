@@ -7,6 +7,7 @@
 :root {
     --primary-color: red;
     --secondary-color: yellow;
+    /* now used below */
     --accent1-color: #b30000;
     --accent2-color: #00a651;
     --heading-font: "Roboto", sans-serif;
@@ -23,6 +24,8 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    /* uses secondary color */
 }
 
 main {
@@ -30,11 +33,7 @@ main {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
+h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -49,7 +48,7 @@ footer {
     text-decoration: none;
 }
 
-/*class section*/
+/* Hero section */
 .hero {
     position: relative;
 }
@@ -80,17 +79,16 @@ footer {
     width: 60%;
     text-align: left;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
+/* ✅ Float image right inside article */
 .hero article img {
+    float: right;
     width: 150px;
     height: 150px;
     border-radius: 0;
-    /* square image */
     object-fit: cover;
+    margin-left: 20px;
 }
 
 .hero article p {
