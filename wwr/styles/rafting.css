@@ -5,10 +5,11 @@
 }
 
 :root {
-    --primary-color: red;
-    --secondary-color: yellow;
-    --accent1-color: #b30000;
-    --accent2-color: #00a651;
+    --primary-color: white;
+    --secondary-color: rgb(0, 174, 255);
+    ;
+    --accent1-color: black;
+    --accent2-color: red;
     --heading-font: "Roboto", sans-serif;
     --body-font: "Montserrat", sans-serif;
 }
