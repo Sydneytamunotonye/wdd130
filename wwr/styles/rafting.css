@@ -14,8 +14,8 @@
     --body-font: "Montserrat", sans-serif;
 }
 
-li {
-    list-style: none;
+ul {
+    list-style-type: none;
 }
 
 header {
