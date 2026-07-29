@@ -68,13 +68,22 @@ h2 {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
-    width: 100%;
+    width: 840px;
+    margin: 20px auto;
     bottom: 0;
     margin: 20px auto;
     color: #000;
     text-align: center;
     padding: 20px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-weight: 800;
 }
 
 /*class Section*/
@@ -87,7 +96,8 @@ footer {
     background-image: url("images/backgroundnew.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 470px;
+    padding: 10px 0 0;
 }
 
 .hero img {
@@ -203,7 +213,7 @@ footer {
 }
 
 .Adventure img {
-    width: 180px;
+    width: 150px;
     height: auto;
     border-radius: 5px;
     border: 1px solid #000;
