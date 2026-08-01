@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <link rel="stylesheet" href="styles/poll.css">
+</head>
+
+<header>
+    <h1>WDD | HTML FORM - USER POLL</h1>
+</header>
+
+<Main>
+    <form>
+        <h2>CONTACT INFORMATON</h2>
+        <div class="form-item column2">
+            <label for="Full Name">Full Name:</label>
+            <Input type="text" id="Full Name" name="Full Name" required>
+        </div>
+
+        <div class="form-item column2">
+            <label for="Email"> Email:</label>
+            <input type="email" id="Email" email="123@gmail.com" required>
+        </div>
+    </form>
+
+    <form>
+
+        <h2>QUESTIONS</h2>
+        <div class="form-item column1">
+            <label for="What is your favorite browser?"> What is your favorite browser?</label>
+            <select name="Favorite browser" id="Favourite Browser">
+                <option value="1">Chrome</option>
+                <option value="2">Edge</option>
+                <option value="3">Brave</option>
+            </select>
+        </div>
+    </form>
+
+    <form>
+        <div class="form-item column1">
+            <label for="Do you have a household pet?"> What is your household pet?</label>
+            <label><input type="checkbox" id="Household Pet" name="Pet"> </label>
+        </div>
+    </form>
+
+    <form>
+        <div class="form-item column2">
+            <label for="List the places you have lived"> List the name of the places you have
+                lived</label>
+            <label><input type="text" id="places" placeholder="Nigeria, Niger, Netherland"></label>
+        </div>
+    </form>
+
+    <form>
+        <button type="submit">Submit Poll</button>
+    </form>
+</Main>
