@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: white;
-    --secondary-color: rgb(0, 174, 255);
+    --secondary-color: #005a99;
     ;
     --accent1-color: black;
     --accent2-color: red;
@@ -93,6 +93,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    color: #fff;
+    background-color: var(--secondary-color);
 }
 
 footer {
@@ -103,7 +105,6 @@ footer {
     width: 840px;
     margin: 20px auto;
     bottom: 0;
-    margin: 20px auto;
     color: #000;
     text-align: center;
     padding: 20px;
