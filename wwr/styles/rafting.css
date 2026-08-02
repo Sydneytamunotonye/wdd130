@@ -57,7 +57,11 @@ body {
 }
 
 p {
-    color: #ffffff;
+    color: #fff;
+}
+
+label {
+    color: #fff;
 }
 
 main {
